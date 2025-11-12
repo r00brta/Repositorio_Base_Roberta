@@ -2,7 +2,7 @@ import sqlite3
 banco = sqlite3.connect('fabrica_programadores.db')
 cursor = banco.cursor()
 
-# cursor.execute("CREATE TABLE Alunos (id INTEGER PRIMARY KEY AUTOINCREMENT,nome Text,idade INTEGER,cidade TEXT)")
+#cursor.execute("CREATE TABLE Alunos (id INTEGER PRIMARY KEY AUTOINCREMENT,nome Text,idade INTEGER,cidade TEXT)")
 # cursor.execute("INSERT INTO Alunos (nome, idade, cidade) VALUES ('Isabelle Luísa', 16, 'Itapevi')")
 # cursor.execute("INSERT INTO Alunos (nome, idade, cidade) VALUES ('Arthur Félix', 16, 'Rio de Janeiro')")
 # cursor.execute("INSERT INTO Alunos (nome, idade, cidade) VALUES ('Roberta Mikaelly', 15, 'Guarulhos')")
